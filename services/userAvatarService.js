@@ -18,7 +18,6 @@ export const generateAvatar = async ({ name, backgroundColor }) => {
 			{
 				size: 100,
 				background: `#${backgroundColor}` || "#000",
-				round: true,
 			}
 		);
 		return true;
